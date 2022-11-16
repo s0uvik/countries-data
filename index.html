@@ -1,0 +1,37 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ASYNC JS</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./country.js" defer></script>
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <div class="box">
+      <div class="select">
+        <select name="select" id="select">
+          <option value="Select Country">Select Country</option>
+        </select>
+      </div>
+      <div class="container"></div>
+
+      <template class="template">
+        <div class="main-content">
+          <img
+            class="flag"
+            src="https://flagcdn.com/w320/au.png"
+            alt=""
+            data-img
+          />
+          <p class="name">Name: Australia</p>
+          <p class="capital">Capital: Canberra</p>
+          <p class="population">population: 25687041</p>
+          <p class="currencies">Currencies: AUD</p>
+          <p class="language">Language: ENG</p>
+        </div>
+      </template>
+    </div>
+  </body>
+</html>
